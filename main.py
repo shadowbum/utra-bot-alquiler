@@ -909,7 +909,7 @@ def onmessage(update,bot:ObigramClient):
             getUser['moodle_user'] = "---"
             getUser['moodle_password'] = "---"
             getUser['moodle_repo_id'] = 3
-            getUser['zips'] = 15
+            getUser['zips'] = 19
             jdb.save_data_user(username,getUser)
             jdb.save()
             statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
