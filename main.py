@@ -866,14 +866,14 @@ def onmessage(update,bot:ObigramClient):
             jdb.save()
             statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
             bot.editMessageText(message,"✅Uclv configuration loaded")
-        elif '/aula_uclv' in msgText:
+moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
             getUser = user_info
             getUser['moodle_host'] = "https://aula.uclv.edu.cu/"
-            getUser['uploadtype'] =  "evidence"
-            getUser['moodle_user'] = "---"
-            getUser['moodle_password'] = "---"
+            getUser['uploadtype'] =  "calendar"
+            getUser['moodle_user'] = "chrisbel"
+            getUser['moodle_password'] = "chrisbel13S@"
             getUser['moodle_repo_id'] = 5
-            getUser['zips'] = 60
+            getUser['zips'] = 396
             jdb.save_data_user(username,getUser)
             jdb.save()
             statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
