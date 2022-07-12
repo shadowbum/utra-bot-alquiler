@@ -960,8 +960,8 @@ moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
             #    bot_token = os.environ.get('bot_token')
             #    
                 # set in debug
-            #    api_id = 7386053
-            #    api_hash = '78d1c032f3aa546ff5176d9ff0e7f341'
+            #    api_id = 18869168
+            #    api_hash = '263ae5bb676af1e5cbec71a7d4e01cfe'
             #    bot_token = '5124841893:AAH30p6ljtIzi2oPlaZwBmCfWQ1KelC6KUg'
 
             #    chat_id = int(update.message.chat.id)
