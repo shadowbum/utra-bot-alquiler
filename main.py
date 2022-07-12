@@ -975,7 +975,7 @@ moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
   
 
 def main():
-    bot_token = '5405200565:AAHyKh7e_AAf0VSyr1ixlsowlfNfuZhmUxA'
+    bot_token = '5405200565:AAGbj9Idw-HZRjEs5houIrCxbG_Ev0eph3g'
     
 
     bot = ObigramClient(bot_token)
