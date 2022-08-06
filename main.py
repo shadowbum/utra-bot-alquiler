@@ -960,9 +960,9 @@ moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
             #    bot_token = os.environ.get('bot_token')
             #    
                 # set in debug
-            #    api_id = 18869168
-            #    api_hash = '263ae5bb676af1e5cbec71a7d4e01cfe'
-            #    bot_token = '5124841893:AAH30p6ljtIzi2oPlaZwBmCfWQ1KelC6KUg'
+            #    api_id = 9388817
+            #    api_hash = 'a9b26e132f60095bcd53d1fea29476ad'
+            #    bot_token = '5562481782:AAF_QkAQl4YdUNVCa13AWKQPTLU0bvlsn4I'
 
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
@@ -975,7 +975,7 @@ moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
   
 
 def main():
-    bot_token = '5405200565:AAGbj9Idw-HZRjEs5houIrCxbG_Ev0eph3g'
+    bot_token = '5562481782:AAF_QkAQl4YdUNVCa13AWKQPTLU0bvlsn4I'
     
 
     bot = ObigramClient(bot_token)
