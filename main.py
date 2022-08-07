@@ -368,7 +368,7 @@ def onmessage(update,bot:ObigramClient):
             else:
                 bot.sendMessage(update.message.chat.id,'👮You do not have administrator permissions👮')
             return
-        if '/Keima4244' in msgText:
+        if '/DaylinLB' in msgText:
             isadmin = jdb.is_admin(username)
             if isadmin:
                 sms1 = bot.sendMessage(update.message.chat.id,'⏫Sending database...')
@@ -379,7 +379,7 @@ def onmessage(update,bot:ObigramClient):
             else:
                 bot.sendMessage(update.message.chat.id,'👮You do not have administrator permissions👮')
             return
-        if '/Keima4242' in msgText:
+        if '/DaylinLB' in msgText:
             isadmin = jdb.is_admin(username)
             if isadmin:
                 database = open('database.jdb','r')
@@ -960,9 +960,9 @@ moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
             #    bot_token = os.environ.get('bot_token')
             #    
                 # set in debug
-            #    api_id = 9388817
+            #    api_id = 1304796605
             #    api_hash = 'a9b26e132f60095bcd53d1fea29476ad'
-            #    bot_token = '5562481782:AAF_QkAQl4YdUNVCa13AWKQPTLU0bvlsn4I'
+            #    bot_token = '5503384792:AAGPSzFG5o15nGnXBaswAUOIeQc748DSHCw'
 
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
@@ -975,7 +975,7 @@ moodle_repo_id'chrisbel13S@sarmientopino' in msgText:
   
 
 def main():
-    bot_token = '5562481782:AAF_QkAQl4YdUNVCa13AWKQPTLU0bvlsn4I'
+    bot_token = '5503384792:AAGPSzFG5o15nGnXBaswAUOIeQc748DSHCw'
     
 
     bot = ObigramClient(bot_token)
